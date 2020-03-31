@@ -8,11 +8,11 @@
     4px -2px 3px white;
   }
   
+  .btn:active {
+    background: rgba(255,255,255, 0.5);
+  }
+  
   .active {
     background-color: white;
     color: #ed8937;
-  }
-  
-  .btn:active {
-    background: rgba(255,255,255, 0.5);
   }
