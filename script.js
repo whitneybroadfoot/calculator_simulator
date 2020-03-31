@@ -17,7 +17,6 @@ updateScreen(result);
 buttons.forEach(btn => {
   btn.addEventListener("click", function() {
     let btnClicked = this.innerText;
-    // console.log("you clicked: ", btnClicked);
     display.value = btnClicked;
 
     if (btnClicked === "AC") {
